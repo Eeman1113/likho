@@ -1,9 +1,9 @@
-/** @type {import('next').NextConfig} */
+/** @type {import(\'next\').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // appDir is now default for src/app projects in Next.js 13+
+  // No need for experimental flag
 }
 
 module.exports = nextConfig
+
 
